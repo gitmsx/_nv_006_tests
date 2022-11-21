@@ -46,8 +46,8 @@ public class MotionControllerPlayer1 : MonoBehaviour
     {
         AudioSource1 = GetComponent<AudioSource>();
 
-        Text__info002 = GameObject.Find("TextInfo2").GetComponent<Text>();
-        Text__info003 = GameObject.Find("TextInfo3").GetComponent<Text>();
+        Text__info002 = GameObject.Find("Text__info002").GetComponent<Text>();
+        Text__info003 = GameObject.Find("Text__info003").GetComponent<Text>();
 
     }
 

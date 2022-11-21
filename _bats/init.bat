@@ -21,12 +21,12 @@ rem *************************
 rem *************************
 
 
-echo "# _nv_005_chess_vad_001" >> README.md
+echo "# _nv_006_tests" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/gitmsx/_nv_005_chess_vad_001.git
+git remote add origin https://github.com/gitmsx/_nv_006_tests.git
 git push -u origin main
 
 

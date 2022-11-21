@@ -2,9 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-
-public class MotionControllerPlayer1 : MonoBehaviour
+public class MotionController : MonoBehaviour
 {
 
     public float speed_time_rotation = 3;
@@ -36,7 +34,7 @@ public class MotionControllerPlayer1 : MonoBehaviour
     int current_direktion = 0;
     int new_direktion = 0;
     private Vector3 newRotation;
-   
+  
 
     [HideInInspector] private Text Text__info003;
     [HideInInspector] private Text Text__info002;
@@ -46,8 +44,8 @@ public class MotionControllerPlayer1 : MonoBehaviour
     {
         AudioSource1 = GetComponent<AudioSource>();
 
-        Text__info002 = GameObject.Find("Text__info002").GetComponent<Text>();
-        Text__info003 = GameObject.Find("Text__info003").GetComponent<Text>();
+        Text__info002 = GameObject.Find("TextInfo2").GetComponent<Text>();
+        Text__info003 = GameObject.Find("TextInfo3").GetComponent<Text>();
 
     }
 

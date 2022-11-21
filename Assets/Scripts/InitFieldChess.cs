@@ -12,13 +12,7 @@ public class InitFieldChess : MonoBehaviour
 
     void Start()
     {
-        ChessBoard();
-    }
-
-
-
-    void ChessBoard()
-    {
+   
 
         float scale_pf = _global.Global_Scale;
         GameObject[] ChessTmp = new GameObject[2];
